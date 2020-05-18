@@ -23,5 +23,6 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 
 @font-face {
   font-family: "Recoleta";
-  src: font-url('Recoleta.otf') format("otf");
+  src: font-url('Recoleta.otf') format("otf"),
+  url('Recoleta.woff') format('woff');
 }
