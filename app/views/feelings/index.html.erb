@@ -4,7 +4,7 @@
       <span class="feeling-span">feeling? </span>
     </h1>
     <%= simple_form_for @feeling, html: { autocomplete: 'off' }, remote: true do |f| %>
-      <%= f.input :name, label: false, autofocus: true, placeholder: 'Type here & hit enter to add how u feel', :input_html => { :class => "text" } %>
+      <%= f.input :name, label: false, autofocus: true, placeholder: 'Type here & hit enter to add how you feel', :input_html => { :class => "text" } %>
       <%= f.submit %>
     <% end %>
   </div>
