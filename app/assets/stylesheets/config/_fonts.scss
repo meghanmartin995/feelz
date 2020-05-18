@@ -18,10 +18,10 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 
 @font-face {
   font-family: "Apercu";
-  src: asset-url('Apercu.otf') format("otf");
+  src: font-url('Apercu.otf') format("otf");
 }
 
 @font-face {
   font-family: "Recoleta";
-  src: asset-url('Recoleta.otf') format("otf");
+  src: font-url('Recoleta.otf') format("otf");
 }
