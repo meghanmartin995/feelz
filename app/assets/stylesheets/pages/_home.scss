@@ -94,7 +94,8 @@ body {
 @media screen and (max-width: 420px) {
   .form-control {
     width: 93%;
-    padding: 0.55rem .95rem;
+    padding: 0.4rem 1rem;
+    font-size: 17.2px;
   }
   .feelings {
     margin: 8px auto 0 auto;
@@ -113,16 +114,21 @@ body {
   }
 }
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 390px) {
   .form-control {
-    font-size: 16px;
-    padding: 0.4rem 0.68rem;
+    font-size: 16.3px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 373px) {
   .form-control {
     font-size: 15.4px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .form-control {
+    font-size: 15px;
   }
 }
 
