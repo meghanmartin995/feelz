@@ -8,18 +8,26 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 // To use a font file (.woff) uncomment following lines
 @font-face {
   font-family: "Recoleta";
-  src: font-url('Recolata.eot');
+  src: font-url('Recoleta.eot');
   src: font-url('Recoleta.eot?#iefix') format('embedded-opentype'),
        font-url('Recoleta.woff') format('woff'),
        font-url('Recoleta.ttf') format('truetype')
 }
-// $my-font: "Font Name";
-
 
 @font-face {
   font-family: "Apercu";
-  src: font-url('Apercu.otf') format("otf");
+  src: font-url('Apercu.eot');
+  src: font-url('Apercu.eot?#iefix') format('embedded-opentype'),
+       font-url('Apercu.woff') format('woff'),
+       font-url('Apercu.ttf') format('truetype')
 }
+// $my-font: "Font Name";
+
+
+// @font-face {
+//   font-family: "Apercu";
+//   src: font-url('Apercu.otf') format("otf");
+// }
 
 // @font-face {
 //   font-family: "Recoleta";
