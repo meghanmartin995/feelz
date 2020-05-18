@@ -1,1 +1,141 @@
-// Specific CSS for your home-page
+input {
+  display: none;
+}
+
+header {
+  padding-top: 72px;
+  .header-text {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 0px 20px 0;
+    h1{
+    font-family: Recoleta, serif;
+    font-size: 92px;
+    line-height: 104%;
+    }
+    span {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      -webkit-text-fill-color: #FFEDEA;
+    }
+  }
+}
+
+body {
+  font-size: 16px;
+  text-align: center;
+  background: #FFEDEA;
+  font-family: Apercu, sans-serif;
+}
+
+.form-control {
+  width: 370px;
+  font-size: 17.5px;
+  border-radius: 8px;
+  height: 45px;
+  margin: 40px auto 0 auto;
+  background: #FEF4F3;
+  color: #474747;
+  padding: 0.55rem 0.88rem;
+  border: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #303030;
+}
+
+.feelings {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 16px auto 0 auto;
+  max-width: 2000px;
+}
+
+.feeling {
+  color: #1F1F1F;
+  padding: 60px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  max-width: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 620px) {
+  header {
+    padding-top: 52px;
+    .header-text {
+      width: 100%;
+      line-height: 108%;
+      margin: 0 auto;
+      padding: 40px 0px 0px 0;
+      h1 {
+        font-size: 74px;
+      }
+    }
+  }
+  .feeling {
+    padding: 52px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+    .form-control {
+    height: 68px;
+    width: 359px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form-control {
+    width: 93%;
+    padding: 0.55rem .95rem;
+  }
+  .feelings {
+    margin: 8px auto 0 auto;
+  }
+  .feeling {
+    padding: 48px;
+    max-width: 98px;
+    max-height: 98px;
+  }
+  header {
+    .header-text {
+      h1 {
+        font-size: 64px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .form-control {
+    font-size: 16px;
+    padding: 0.4rem 0.68rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .form-control {
+    font-size: 15.4px;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .form-control {
+    font-size: 14px;
+  }
+  .feeling {
+    padding: 43px;
+    max-width: 84px;
+    max-height: 84px;
+}
+  header .header-text h1 {
+      font-size: 55px;
+  }
+}

@@ -1,0 +1,23 @@
+<header>
+  <div class="header-text">
+    <h1 id="header">how are you
+      <span class="feeling-span">feeling? </span>
+    </h1>
+    <%= simple_form_for @feeling, html: { autocomplete: 'off' }, remote: true do |f| %>
+      <%= f.input :name, label: false, autofocus: true, placeholder: 'Type here & smash enter to add how u feel', :input_html => { :class => "text" } %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</header>
+
+<% if @feelings %>
+ <%  colors = ["#A094FF", "#FFBFFF", "#48FFCC", "#C6E9FF", "#FFA3BD", "#6EE1FF", "#FF9EBD", "#CF80FF", "#C6E9FF", "#FF8499"] %>
+  <div class="feelings">
+    <% @feelings.each do |feeling| %>
+      <div class="feeling" style="background-color:<%= colors.sample %>">
+        <%= feeling.name %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
